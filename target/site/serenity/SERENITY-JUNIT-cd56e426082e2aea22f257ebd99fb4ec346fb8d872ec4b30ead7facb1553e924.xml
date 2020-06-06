@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="firstserenity.features.search.SearchByKeywordStory" skipped="0" tests="1" time="46.41" timestamp="2020-05-26 03:52:53"><testcase classname="firstserenity.features.search.SearchByKeywordStory" name="Search results should show the search term in the title"/></testsuite>

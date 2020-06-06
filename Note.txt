@@ -1,0 +1,4 @@
+pom: Repositories: Change http -> https
+
+mvn verify -Dcontext=chrome -Dwebdriver.driver=chrome
+mvn verify -Dcontext=firefox -Dwebdriver.driver=firefox
