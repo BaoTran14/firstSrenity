@@ -45,14 +45,14 @@ public class SearchByKeywordStory {
     @Test
     public void search_results_should_show_the_search_term_in_the_title() {
 
-//        givenThat(anna).wasAbleTo(openTheApplication);
-//
-//        when(anna).attemptsTo(Search.forTheTerm("BDD In Action"));
-//
+        givenThat(anna).wasAbleTo(openTheApplication);
+
+        when(anna).attemptsTo(Search.forTheTerm("BDD In Action"));
+
         then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("BDD In Action"))));
 
-        anna.attemptsTo(
-                Open.url("https://wwww.google.com"),
+//        anna.attemptsTo(
+//                Open.url("https://wwww.google.com"),
 //                Enter.theValue("").into(SearchBox.SEARCH_FIELD),
 //                Hit.the(Keys.ENTER).into(SearchBox.SEARCH_FIELD),
 //                Click.on(SearchBox.OUTSIDE_INPUT),
@@ -61,9 +61,9 @@ public class SearchByKeywordStory {
 //                SelectFromOptions.byIndex(1).from(FacebookPage.DAY),
 //                SelectFromOptions.byValue("11").from(FacebookPage.MONTH),
 //                SelectFromOptions.byVisibleText("1995").from(FacebookPage.YEAR),
-                MoveMouse.to(Tiki.ACCOUNT_MENU),
-                WaitUntil.the(Tiki.ACCOUNT_MENU, isVisible()).forNoMoreThan(5).seconds()
-        );
+//                MoveMouse.to(Tiki.ACCOUNT_MENU),
+//                WaitUntil.the(Tiki.ACCOUNT_MENU, isVisible()).forNoMoreThan(5).seconds()
+//        );
 
     }
 }
