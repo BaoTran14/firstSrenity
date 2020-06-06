@@ -9,18 +9,18 @@ pipeline{
         }
         stage ('Test Stage') {
 
-                steps {
-                        bat 'mvn verify'
-                        publishHTML(target: [
-                                reportName : 'Serenity',
-                                reportDir:   'target/site/serenity',
-                                reportFiles: 'index.html',
-                                keepAll:     true,
-                                alwaysLinkToLastBuild: true,
-                                allowMissing: false
-                            ])
-                }
+            steps {
+                    bat 'mvn clean verify'
+                    publishHTML(target: [
+                                    reportName : 'Serenity',
+                                    reportDir:   'target/site/serenity',
+                                    reportFiles: 'index.html',
+                                    keepAll:     true,
+                                    alwaysLinkToLastBuild: true,
+                                    allowMissing: false
+                                ])
             }
+        }
 
         stage('Deploy to Staging'){
             steps {
