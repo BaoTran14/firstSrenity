@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: firstserenity.features.search.SearchByKeywordStory
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.581 s <<< FAILURE! - in firstserenity.features.search.SearchByKeywordStory
-search_results_should_show_the_search_term_in_the_title(firstserenity.features.search.SearchByKeywordStory)  Time elapsed: 2.215 s  <<< ERROR!
-net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (The driver executable does not exist: D:\Automation\driver\geckodriver.exe). See below for more details.
-	at firstserenity.features.search.SearchByKeywordStory.search_results_should_show_the_search_term_in_the_title(SearchByKeywordStory.java:52)
-

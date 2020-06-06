@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="firstserenity.features.search.SearchByKeywordStory" skipped="0" tests="1" time="1.67" timestamp="2020-05-26 04:24:12"><testcase classname="firstserenity.features.search.SearchByKeywordStory" name="Search results should show the search term in the title"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
-firstserenity.tasks.OpenTheApplication.performAs(OpenTheApplication.java:15)&#13;
-firstserenity.features.search.SearchByKeywordStory.search_results_should_show_the_search_term_in_the_title(SearchByKeywordStory.java:41)&#13;
-</system-err></testcase></testsuite>
